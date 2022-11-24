@@ -1,0 +1,109 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Varta', sans-serif;
+
+}
+
+.navbar ul li {
+  margin-left: 10%;
+  font-size:large;
+  padding-left: 5%;
+
+}
+
+
+
+#background {
+  padding-left: 0%;
+}
+
+
+
+
+#map {
+  height: 100vh;
+  position: relative;
+}
+
+.btn {
+  display: inline;
+  list-style: none;
+  margin-top: 3%;
+}
+
+.form-control{
+
+  padding-left:3%;
+ 
+
+}
+#searchbar{
+  margin-left: 10%;
+}
+#search{
+  margin-left: 20px;
+ 
+
+}
+
+
+#btnn {
+  margin-top: 40px;
+  margin-left: 50%;
+}
+
+#sticky .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+
+}
+
+body {
+  padding-top: 0%;
+  background: linear-gradient(rgba(157, 209, 208, 0.7),rgba(131, 176, 193, 0.7));
+
+}
+#head{
+  font-size:xx-large;
+  background-color: rgb(169, 152, 152);
+}
+#text{
+  font-size: 17pt;
+  font-weight:300;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+#list p{
+color: white;
+font-size: 15pt;
+}
+table th,
+td {
+  width: 100%;
+  padding: 2%;
+  font-size: large;
+}
+
+.fa-sharp {
+  font-size: 2em;
+  color: black;
+}
+.container{
+	
+  background: linear-gradient(rgba(140, 128, 128, 0.7),rgba(194, 187, 187, 0.7)), url('../images/workshop.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+
+
+}
+#logout{
+  color: aliceblue;
+}
