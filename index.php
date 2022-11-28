@@ -137,11 +137,16 @@ while($res=mysqli_fetch_array($query))
   
 </body>
 
+<script
+    src="https://maps.googleapis.com/maps/api/js?AIzaSyB8EhMSQ1AHQYD3jR0ZATjtPmn7okVIXbc&callback=initMap"
+    async
+  ></script>
+
 <script>
  
     
     var marker;
-      function initialize() {
+      function initMap() {
         var infoWindow = new google.maps.InfoWindow;
         
         var mapOptions = {
@@ -199,10 +204,5 @@ while($res=mysqli_fetch_array($query))
   
     
    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script
-    src="https://maps.googleapis.com/maps/api/js?AIzaSyB8EhMSQ1AHQYD3jR0ZATjtPmn7okVIXbc&callback=initMap&v=weekly&channel=2"
-    async
-  ></script>
-
 
 </html>
